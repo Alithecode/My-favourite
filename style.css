@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+h1{
+    text-shadow: 2px 2px #bbf6f8;
+    font-size: 40px;
+}
+#hobby{
+    padding-top: 100px;
+    font-size:20px;
+    text-align: center;
+    background-image: linear-gradient(#03fcf4 0%,#03fc77 100%);
+}
+#soccer{
+    border-radius: 20%;
+    width: 110px;
+}
+.menu{
+    background: white;
+    width: 100%;
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 10;
+    cursor:pointer ;
+    top: 0px;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: fantasy;
+}
+#myname{
+    font-family: 'Mate SC', cursive;
+}
+p{
+    font-size: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#favhobby{
+    padding-top: 220px;
+    background-image: linear-gradient(lightblue 0%,pink 100%);
+}
+#about{
+    background-image: linear-gradient(pink 0%,lightblue 100%);
+}
+#mywork{
+    background-image:linear-gradient(pink 0%,lightblue 100%); ;
+}
+#inspiration{
+    background-image: linear-gradient(lightblue 0%,pink 100%);
+}
+#pele{
+    height: 700px;
+    width: 700px;
+}
+#messi{
+    height: 700px;
+    width: 700px;
+}
+.links:hover{
+    background-color:yellow;
+    font-size: 25px;
+}
+img:hover{
+    transform: scale(0.9);
+}
